@@ -11,6 +11,8 @@
 		7DB836D7282CAC3D004287D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB836D6282CAC3D004287D1 /* ContentView.swift */; };
 		7DB836D9282CAC3F004287D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB836D8282CAC3F004287D1 /* Assets.xcassets */; };
 		7DB836DC282CAC3F004287D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB836DB282CAC3F004287D1 /* Preview Assets.xcassets */; };
+		7DBF84ED282DE4B400FB65E4 /* CircleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF84EC282DE4B400FB65E4 /* CircleColor.swift */; };
+		7DBF84EF282DE50000FB65E4 /* ButtonConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBF84EE282DE50000FB65E4 /* ButtonConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7DB836D6282CAC3D004287D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DB836D8282CAC3F004287D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB836DB282CAC3F004287D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DBF84EC282DE4B400FB65E4 /* CircleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColor.swift; sourceTree = "<group>"; };
+		7DBF84EE282DE50000FB65E4 /* ButtonConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				7DB836D4282CAC3D004287D1 /* TrafficLightSwiftUIApp.swift */,
 				7DB836D6282CAC3D004287D1 /* ContentView.swift */,
+				7DBF84EC282DE4B400FB65E4 /* CircleColor.swift */,
+				7DBF84EE282DE50000FB65E4 /* ButtonConfiguration.swift */,
 				7DB836D8282CAC3F004287D1 /* Assets.xcassets */,
 				7DB836DA282CAC3F004287D1 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBF84EF282DE50000FB65E4 /* ButtonConfiguration.swift in Sources */,
 				7DB836D7282CAC3D004287D1 /* ContentView.swift in Sources */,
 				7DB836D5282CAC3D004287D1 /* TrafficLightSwiftUIApp.swift in Sources */,
+				7DBF84ED282DE4B400FB65E4 /* CircleColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
